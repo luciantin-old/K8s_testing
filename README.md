@@ -25,3 +25,5 @@ minikube config view vm-driver
 https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html
 
 https://www.scalyr.com/blog/create-docker-image/
+
+https://testdriven.io/blog/running-flask-on-kubernetes/
