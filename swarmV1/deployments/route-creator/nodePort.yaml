@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: flask-node-port
+  name: route-creator-port
 spec:
   type: NodePort
   ports:
     - port: 5000
   selector:
-    app: flask-app
+    app: route-creator

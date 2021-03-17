@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flask-depl
+  name: flask-dep-two
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: flask-app
+      app: flask-app-two
   template:
     metadata:
       labels: 
-        app: flask-app
+        app: flask-app-two
     spec:
       containers:
-      - name: flask-hello
+      - name: flask-cnt-name
         image: luciantin/flask_tst
         ports:
         - containerPort: 5000

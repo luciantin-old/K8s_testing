@@ -8,6 +8,10 @@ $ minikube start/stop/delete
 PS $ wsl --shutdown
 ```
 
+- minikube tunnel za spajanje mreze
+```
+PS $ minikube tunnel
+```
 
 
 

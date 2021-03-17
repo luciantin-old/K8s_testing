@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: flask-service
+  name: flask-service-two
   labels:
-    service: flask-service
+    service: flask-service-label-two
 spec:
   selector:
-    app: flask-app
+    app: flask-app-two
   ports:
   - port: 5000
     targetPort: 5000
